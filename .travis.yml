@@ -1,7 +1,9 @@
+install: 
+  - npm install --save-dev jest
 language: node_js
 dist: trusty
 node_js:
   - "7"
-  - "6"
 script:
-  - Jest sum.test.js
+  - bundle exec rake build
+  - bundle exec rake builddoc
