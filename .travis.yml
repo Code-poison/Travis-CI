@@ -1,9 +1,7 @@
 language: node_js
+dist: trusty
 node_js:
   - "7"
   - "6"
-before_script:
-  - echo before_script
-
 script:
-  - echo script
+  - Jest sum.test.js
