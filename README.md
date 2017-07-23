@@ -1,9 +1,6 @@
 Hello Git World!
 
-<<<<<<< HEAD
+Hello Travis CI!
 
-commit 1
-=======
-Hello CI!
->>>>>>> 1c5224b402689265b7794a186165353076b15f55
+average.js is the first test for travis CI.
 
