@@ -1,9 +1,9 @@
 function isOldEnoughToDrink(age) {
-  // your code here	
-  if(typeof(age) != 'number') return false;
+  // your code here	  
   if(age < 21){
     return false;
   }else{
     return true;
   }
 }
+module.exports = isOldEnoughToDrink;

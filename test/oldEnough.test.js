@@ -1,4 +1,6 @@
-describe("UnitTests", function() {
+const isOldEnoughToDrink = require('../js/oldEnough');
+
+describe("isOldEnoughToDrink", function() {
     it("Should_return_false", function() {
         // Failure message:
         // Wrong return value. Make sure its false
@@ -8,8 +10,5 @@ describe("UnitTests", function() {
         // Failure message:
         // Wrong return value. Make sure its true
         expect(isOldEnoughToDrink(22)).toBe(true);
-    });
-    it("Should_return_false", function(){
-        expect(isOldEnoughToDrink(five)).toBe(false);
-    })
+    });    
 });
